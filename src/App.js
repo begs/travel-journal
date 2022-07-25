@@ -8,7 +8,9 @@ export default function () {
 	return (
 			<div>
 				<Header />
-				<Card />
+				<div className="cards-container">
+					<Card />
+				</div>
 			</div>
 	)
 }

@@ -9,6 +9,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 82px;
 }
 
 .nav--text {
@@ -16,4 +17,31 @@ nav {
 	font-weight: 500;
 	font-size: 15px;
 	padding-left: 7px;
+}
+
+.card {
+	display: flex;
+	height: 168px;
+	width: 470px;
+	margin: 0px 40px 18px 40px;
+	border: 1px dotted blue;
+}
+
+.cards-container {
+	display: flex;
+	justify-content: center;
+}
+
+.pic-container {
+	width: 125px;
+	border: 1px dotted red;
+	margin-left: 0px;
+	margin-right: 19px;
+}
+
+.text-container {
+	margin-right: auto;
+	margin-left: 0px;
+	padding: 0px;
+	justify-content: flex-start;
 }
