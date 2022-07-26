@@ -4,7 +4,7 @@ import Header from "./Header"
 import Card from "./Card"
 import Style from "./style.css"
 
-export default function () {
+export default function App() {
 	return (
 			<div>
 				<Header />
