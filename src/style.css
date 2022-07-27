@@ -4,6 +4,7 @@ p {
 
 body {
 	font-family: 'Inter', sans-serif;
+	margin: 0px;
 }
 
 nav {
@@ -37,6 +38,7 @@ nav {
 .pic-container {
 	min-width: 125px;
 	border: 1px dotted red;
+	border-radius: 5px;
 }
 
 .text-container {
@@ -49,16 +51,32 @@ nav {
 
 .country-text {
 	font-size: 10px;
+	letter-spacing: 0.17em;
+}
+
+.fa-location-dot {
+	color: #F55A5A;
+}
+
+.maps-link {
+	font-size: 10px;
+	margin-left: 12px;
+	color: #918E9B;
 }
 
 .destination-text {
+	margin: 5px 0px 18px 0px;
+	font-weight: 700;
+	font-size: 25px;
 }
 
 .date-text {
 	font-size: 10px;
+	font-weight: 700;
 }
 
 .description-text {
+	margin-top: 9px;
 	font-size: 10px;
 	font-weight: 400;
 	line-height: 150%;
