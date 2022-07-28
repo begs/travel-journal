@@ -3,14 +3,22 @@ import ReactDOM from "react-dom"
 import Header from "./Header"
 import Card from "./Card"
 import Style from "./style.css"
-import Data from "./data"
+import Data from "./Data"
 
 export default function App() {
+	const cards = Data.map(item => {
+		return (
+			<Card 
+				key={item.id}
+				{...item}
+			/>
+		)
+	})
 	return (
 			<div>
 				<Header />
 				<div className="cards-container">
-					<Card />
+					{cards}
 				</div>
 			</div>
 	)
