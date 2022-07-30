@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: "SignaTUR i Tafjordfjella",
-        location: "Møre og Romsdal, Norway",
+        location: "Møre og Romsdal, Norge",
         googleMapsUrl: "https://goo.gl/maps/dxtmPxERuKLuWVcs5",
         startDate: "02 juli, 2022",
         endDate: "09 juli, 2022",
