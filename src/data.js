@@ -6,7 +6,7 @@ export default [
         googleMapsUrl: "https://goo.gl/maps/dxtmPxERuKLuWVcs5",
         startDate: "02 juli, 2022",
         endDate: "09 juli, 2022",
-        description: "SignaTUR i Tafjordfjella er ei rute satt opp av DNT som går gjennom fjella midt i hjertet av Reinheimen. Turen går gjennom variert terreng og er totalt på over 70 km i avstand og med over 3600 høydemeter.",
+        description: "SignaTUR i Tafjordfjella er en 7-dagers tur satt opp av DNT som går gjennom fjella midt i hjertet av Reinheimen.",
         imageUrl: "https://i.imgur.com/3c6mUSY.png",
         imageAltText: "En varde og fjellutsikt"
     },
@@ -28,7 +28,7 @@ export default [
         googleMapsUrl: "https://goo.gl/maps/beN6TadYaKQFSLmV8",
         startDate: "28 august, 2021",
         endDate: "29 august, 2021",
-        description: "Vetvika er ei forblåst og veglaus strand i Bremanger i Sogn og Fjordane. Einaste veg til stranda er enten med båt eller over fjellet. Vetvika blir ofte kalla ei 'skjult naturperle', og er ein flott rundtur i kjempefint vestlandsterreng ⛰",
+        description: "Vetvika er ei forblåst og veglaus strand i Bremanger i Sogn og Fjordane. Stranda blir ofte kalla ei 'skjult naturperle', og er ein flott rundtur i kjempefint vestlandsterreng ⛰",
         imageUrl: "https://i.imgur.com/O4k9txy.png",
         imageAltText: "Blå himmel og utsikt over stranda i Vetvika"
     }
