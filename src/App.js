@@ -22,9 +22,9 @@ export default function App() {
 	return (
 			<div>
 				<Header />
-				<div className="cards-container">
+				<main className="cards-container">
 					{cards}
-				</div>
+				</main>
 			</div>
 	)
 }

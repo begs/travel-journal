@@ -7,8 +7,8 @@ export default function (props) {
 				<img className="location-pic" src={props.imageUrl} alt={props.imageAltText}></img>
 			</div>
 			<div className="text-container">
-				<p><span className="country-text"><i class="fa-solid fa-location-dot"></i>{props.location}</span><a href={props.googleMapsUrl} target="_blank" className="maps-link">View on Google Maps</a></p>
-				<p className="destination-text">{props.title}</p>
+				<p><span className="country-text"><i class="fa-solid fa-location-dot"></i>{props.location}</span><a href={props.googleMapsUrl} target="_blank" className="maps-link" aria-label="View on Google Maps">View on Google Maps</a></p>
+				<header className="destination-text">{props.title}</header>
 				<p className="date-text">{props.startDate} - {props.endDate}</p>
 				<p className="description-text">{props.description}</p>
 				<p className="test">{props.isLast}</p>
