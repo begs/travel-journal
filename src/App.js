@@ -15,7 +15,6 @@ export default function App() {
 					{...item}
 				/>
 				{!isLastItem && <hr className="breakline"></hr>}
-				{console.log(isLastItem)}
 			</div>
 		)
 	});
