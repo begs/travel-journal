@@ -11,6 +11,7 @@ export default function (props) {
 				<p className="destination-text">{props.title}</p>
 				<p className="date-text">{props.startDate} - {props.endDate}</p>
 				<p className="description-text">{props.description}</p>
+				<p className="test">{props.isLast}</p>
 			</div>
 		</div>
 	)
