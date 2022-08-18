@@ -6,7 +6,7 @@ import Data from "./Data"
 
 export default function App() {
 	const cards = Data.map((item, i, arr) => {
-		let isLastItem = (!(arr.length -1 === i))
+		let isLastItem = ((arr.length -1 === i))
 
 		return (
 			<div>
@@ -14,7 +14,8 @@ export default function App() {
 					key={item.id}
 					{...item}
 				/>
-				{isLastItem && <hr className="breakline"></hr>}
+				{!isLastItem && <hr className="breakline"></hr>}
+				{console.log(isLastItem)}
 			</div>
 		)
 	});
